@@ -1,0 +1,27 @@
+<?php
+return [
+    '/' => ['web', 'index', 'index'],
+    '/404' => ['error', 'index', 'error404'],
+    '/login' => ['user', 'index', 'login'],
+    '/login_check' => ['user', 'index', 'loginCheck'],
+    '/logout' => ['user', 'index', 'logout'],
+    '/registration' => ['user', 'index', 'registration'],
+    '/registration_check' => ['user', 'index', 'registrationSave'],
+    
+    '/doctor' => ['all', 'index', 'doctor'],
+    '/doctor/new' => ['all', 'index', 'doctorNew'],
+    '/doctor/save' => ['all', 'index', 'doctorSave'],
+    '/doctor/delete' => ['all', 'index', 'doctorDelete'],
+    '/card' => ['all', 'index', 'card'],
+    '/card/new' => ['all', 'index', 'cardNew'],
+    '/card/save' => ['all', 'index', 'cardSave'],
+    '/card/delete' => ['all', 'index', 'cardDelete'],
+    '/visitor' => ['all', 'index', 'visitor'],
+    '/visitor/new' => ['all', 'index', 'visitorNew'],
+    '/visitor/save' => ['all', 'index', 'visitorSave'],
+    '/visitor/delete' => ['all', 'index', 'visitorDelete'],
+    '/record' => ['all', 'index', 'record'],
+    '/record/new' => ['all', 'index', 'recordNew'],
+    '/record/save' => ['all', 'index', 'recordSave'],
+    '/record/delete' => ['all', 'index', 'recordDelete'],
+];
